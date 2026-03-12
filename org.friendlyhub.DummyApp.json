@@ -30,7 +30,11 @@
           "type": "git",
           "url": "https://github.com/icemaltacode/dummyapp.git"
         },
-        "cargo-sources.json"
+        "cargo-sources.json",
+        {
+          "type": "file",
+          "path": "org.friendlyhub.DummyApp.metainfo.xml"
+        }
       ]
     }
   ],
