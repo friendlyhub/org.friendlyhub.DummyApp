@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="desktop-application">
+  <id>org.friendlyhub.DummyApp</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>MIT</project_license>
+  <name>Dummy App</name>
+  <summary>A test application for FriendlyHub</summary>
+  <description>
+    <p>A minimal GTK4 application written in Rust. It has a single button that,
+      when clicked, displays &quot;Hello World!&quot;. This app exists solely for testing
+      the FriendlyHub submission and build pipeline.</p>
+  </description>
+  <developer id="org.friendlyhub">
+    <name>FriendlyHub Contributors</name>
+  </developer>
+  <launchable type="desktop-id">org.friendlyhub.DummyApp.desktop</launchable>
+  <screenshots>
+    <screenshot type="default">
+      <image>https://raw.githubusercontent.com/icemaltacode/dummyapp/main/screens/scr1.png</image>
+      <caption>Main window</caption>
+    </screenshot>
+    <screenshot>
+      <image>https://raw.githubusercontent.com/icemaltacode/dummyapp/main/screens/scr2.png</image>
+      <caption>After clicking</caption>
+    </screenshot>
+  </screenshots>
+  <url type="homepage">https://friendlyhub.org</url>
+  <url type="vcs-browser">https://github.com/icemaltacode/DummyApp</url>
+  <url type="bugtracker">https://github.com/icemaltacode/DummyApp/issues</url>
+  <branding>
+    <color type="primary" scheme_preference="light">#34d399</color>
+    <color type="primary" scheme_preference="dark">#059669</color>
+  </branding>
+  <content_rating type="oars-1.1" />
+  <releases>
+    <release version="0.2.0" date="2026-03-16">
+      <description>
+        <p>Updated to GNOME 49 runtime.</p>
+      </description>
+    </release>
+    <release version="0.1.0" date="2026-03-12">
+      <description>
+        <p>Initial release.</p>
+      </description>
+    </release>
+  </releases>
+</component>
